@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pato</title>
+	<link rel="stylesheet" href="./estilos-pato.css"></link>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+          <!--https://fonts.googleapis.com/css2?family=Lato-->
+</head>
+<body>
+	<div class="contenedor">
+  		<div class="contenedor1">
+		   <div class="contenedor-icon"> 
+			    <i class="icon1 fas fa-bullhorn"></i>
+			    <i class="icon2 fas fa-angle-down"></i>
+			    <i class="icon3 fas fa-align-justify"></i>
+			</div>
+			<div class="imag-pato"> 
+				<img class="font-img" src="https://duckduckgo.com/assets/common/dax-logo.svg"/>
+				<h1> DuckDuckGo </h1>
+
+				<div class="field" id="searchForm">
+					<input name="campo-de-busqueda" type="text" id="searchTerm" placeholder="Busca en la red sin que te rastreen" />
+					<button type="button" id="search"> <i class="buscador-icon fas fa-search"></i> </button>
+					<script class="cssdeck" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+				</div>
+			</div>
+  
+    
+			<div class="text-titulo">
+				<h2 class="sub-titulo"> ¿Cansado de que te rastreen? Podemos ayudarte?</h2>
+				<h3 class="text-subtitulo">Consigue protección continua y gratuita para tu privacidad en el navegador con una descarga:</h3>
+				<div class="circulos">
+					<ul style= "list-style-type: circle">
+						<li class="circulo1"><i class="check-icono fas fa-check-circle"></i> Búsqueda Privada</li>
+						<li class="circulo2"><i class="check-icono fas fa-check-circle"></i> Bloqueo De Rastreadores</li>
+						<li class="circulo3"><i class="check-icono fas fa-check-circle"></i> Encriptación De Sitios</li>
+					</ul>
+				</div>
+				<button class="boton1" onclick="calificacion(0,5)" > <a class="text-boton" href="#" >Añadir DuckDuckGo a Chrome</a></button> 
+			</div>
+
+		    <div class="clasificacion">
+				<label for="radio1">★</label><!--
+				--><label for="radio2">★</label><!--
+				--><label for="radio3">★</label><!--
+				--><label for="radio4">★</label><!--
+				--><label for="radio5">★</label><span class="puntuacion">Valoración <span id="calificacionHtml">4.4 </span> /5</span>
+		    </div>
+
+		    <div>
+		    	<h3>Protección de la Privacidad para Cualquier Dispositivo<h3>
+		    </div>
+    	</div>
+		    <div class="contenedor2">
+				<div class="cajas">
+					<div class="caja1">
+						<div class="imag-pajaro"> 
+							<img src="https://duckduckgo.com/assets/add-to-browser/cppm/laptop.svg"/>
+							<h2>Privacidad para Chrome</h2>
+							<h3>Navega como siempre y nosotros nos encargamos del resto. Te ofrecemos buscador, bloqueador de rastreadores y mejora de encriptación todo en una <a class="link-caja" href="https://duckduckgo.com/app">extencion de Chrome</a> </h3>
+						</div>
+					</div>
+					<div class="caja2">
+						<div class="imag-lupa"> 
+							<img src="https://duckduckgo.com/assets/home/landing/icons/search.svg"/>
+							<h2>Motor de Búsqueda Privada</h2>
+							<h3>Busca de forma privada con nuestra app o extensión, añade búsqueda web privada a tu navegador preferido o busca en <a class="link-caja" href="https://duckduckgo.com/?natb=v274-7uc&cp=atbhc">duckduckgo.com.</a> </h3>
+						</div>
+					</div>
+					<div class="caja3">
+						<div class="imag-mobil"> 
+							<img src="https://duckduckgo.com/assets/add-to-browser/cppm/mobile.svg"/>
+							<h2>Navegador Privado</h2>
+							<h3>Nuestro navegador privado para móviles viene equipado con nuestro motor de búsqueda, bloqueador de rastreadores, mejora de encriptación y más. Disponible para <a class="link-caja" href="https://duckduckgo.com/app"> iOS y Android.</a> </h3>
+						</div>
+					</div>
+				</div>
+				<div> 
+					<h1 class="parrafo1"> No guardamos tu información personal. Y nunca lo haremos.</h1>
+					<h3 class="parrafo2">Nuestra política de privacidad es simple: No colectamos o compartimos ninguna información personal tuya.</h3>
+
+					<div>
+					<button class="boton2"><a class="text-boton" href="http://www.stackoverflow.com/"> Instalar DuckDuckGo</a> </button>
+					</div>
+					<div class="imag-monstro"> 
+						<img src="https://duckduckgo.com/assets/onboarding/bathroomguy/1-monster-v2--pre-animation.svg"/> 
+					</div>
+				</div>
+			</div>
+				<div class="contenedor3">
+					<h2 class="tercer-sub">Frequently Asked Questions</h2>
+					<div class="listas-text">
+						<ol style= "list-style-type: none">
+							<li onclick="mostrarRespuesta()" id="pregunta1"><i class="icon-up fas fa-chevron-circle-up"></i>How does DuckDuckGo make money?
+								</br>We make our money from private ads on or search engine.On other search engines,ads are based on profiles compilet about you using your personal information like search,browsing,and purchase history.Since we don't collect that information,search ads on DuckDuckGo are based on the search results  page you are viewing, not on you as a person.For example, if you search for cars, we'll show you ads about cars. <span class="resaltar">Learn more </span></li>
+							<li onclick="mostrarRespuesta()" id="pregunta2"></br><i class="icon-down fas fa-chevron-circle-down"></i>Wath does Google know about me?
+								</br>We make our money from private ads on or search engine.On other search engines,ads are based on profiles compilet about you using your personal information like search,browsing,and purchase history.Since we don't collect that information,search ads on DuckDuckGo are based on the search results  page you are viewing, not on you as a person.For example, if you search for cars, we'll show you ads about cars. <span class="resaltar">Learn more </span></li>
+							<li onclick="mostrarRespuesta()" id="pregunta3"></br><i class="icon-down fas fa-chevron-circle-down"></i>Why use DuckDuckGo Instead of Google?
+								</br>We make our money from private ads on or search engine.On other search engines,ads are based on profiles compilet about you using your personal information like search,browsing,and purchase history.Since we don't collect that information,search ads on DuckDuckGo are based on the search results  page you are viewing, not on you as a person.For example, if you search for cars, we'll show you ads about cars. <span class="resaltar">Learn more </span></li>
+							<li onclick="mostrarRespuesta()"></br><i class="icon-down fas fa-chevron-circle-down"></i>How do DuckDuckGo search results compare to Google's?</li>
+							<li onclick="mostrarRespuesta()"></br><i class="icon-down fas fa-chevron-circle-down"></i>What's the difference between using DuckDuckGo and incognito mode?</li>
+							<li onclick="mostrarRespuesta()"></br><i class="icon-down fas fa-chevron-circle-down"></i>How popular ls DuckDuckGo?</li>
+							<li onclick="mostrarRespuesta()"></br><i class="icon-down fas fa-chevron-circle-down"></i>How does the DuckDuckGo app & extencion work?</li>
+						</ol>
+					</div>
+						<button class="boton3"><a class="text-boton-final" href="#">Add DuckDuckGo Chrome </a></button>
+				</div>
+	</div>
+ <script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js" integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD" crossorigin="anonymous"></script>
+ <script type="text/javascript" src="./logica.js"> </script>
+</body>
+
+</html>

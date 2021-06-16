@@ -1,0 +1,233 @@
+@font-face {
+	font-family: 'mi-fuente';
+	 src: url('http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf');
+	 font-family: 'ProximaNova';
+	 src: url('./font/Rene-Bieder-Milliard-Book.otf');
+	/*src: <origen> [,<origen>]*;*/
+}
+.contenedor{
+	width: 100%;
+	height: 100%;
+	min-width:320px;
+	max-width: 1350px;
+	text-align: center;
+	box-sizing: border-box;
+	color: #FFFFFF;
+	font-family: 'ProximaNova','Crimson Pro', 'mi-fuente';
+	font-weight: 700;
+	font-style: italic;
+}
+.contenedor1{
+	width:100%;
+	/*height: 764px;*/
+	background:#1C1C1C;
+	box-sizing: border-box;
+	text-align: center;
+	border: 1px solid transparent;
+}	
+.contenedor2{
+	width: 100%;
+	/*height: 858px;*/
+	background:#58B792;
+	box-sizing: border-box;
+	border: 0px solid #1C1C1C;
+	border-top: 0px solid #1C1C1C;
+	min-height: 858px;
+}
+.contenedor3{
+	width: 100%;
+	background: #1C1C1C;
+	box-sizing: border-box;
+	text-align: center;
+	border: 1px solid transparent;
+}
+.contenedor-icon{
+	text-align: right;
+	width:100%;
+	height: 40px;
+	box-sizing: border-box;
+	padding: 15px;
+}
+.icon1, .icon2, .icon3{
+	padding: 5px;
+	height: 40px;
+	cursor: grab;
+}
+.icon1{
+	width: 40px;
+}
+.icon2{
+	width: 30px;
+}
+.icon3{
+	width: 50px;
+	font-weight: 600;
+}
+.imag-pato{
+	width: 100%;
+	min-height: 130px;
+}
+.text-subtitulo{
+	text-align: center;
+	font-size: 1.1em;
+	margin: 10px auto;
+	font-weight: 500;
+}
+.sub-titulo{
+	text-align: center;
+	font-size: 1.8rem;
+}
+.boton1, .boton2 , .boton3{
+	border-radius: 15px;
+	background: #6288F1;
+	min-height: 40px;
+	padding: 2px 15px;
+	border: 2px solid #6288F1;
+	cursor:grab;
+	margin: 15px;
+}
+.text-boton-final{
+	color: #DCE1F0;
+}
+.boton1 {
+	margin: 5px;
+}
+.boton2{
+	background: #356E58;
+	margin-bottom: 100px;
+	font-size: 1em;
+	font-weight: 200;
+	margin-top: 15px;
+}
+.text-boton{
+	color: #FFFFFF;
+}
+.circulos{
+	width: 100%;
+	height: 30px;
+}
+.circulo1, .circulo2, .circulo3{
+	width: fit-content;
+	height: 30px;
+	display: inline-block; 	
+	font-weight: 600;	 	
+}
+.check-icono{
+	color: #678FFF;
+}
+.text-titulo{
+	width: 100%;
+	min-height: 120px;
+}
+.cajas{
+	width:100%;
+	min-height: 335px;
+	box-sizing: border-box;
+	background: linear-gradient(0deg, rgba(88,183,146,1) 50%, rgba(28,28,28,1) 50%);
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+.caja1, .caja2, .caja3{
+	width: 333px;
+	height: 335px;
+	display: inline-block;
+	border-radius: 50px;
+	background: #282828;
+	margin: 0px 12px; 
+	padding: 24px;
+	font-style: italic;
+}
+.parrafo1, .parrafo2{
+	max-width: 600px;
+	width: 600px;
+	min-width: 300px;
+	margin: 0px auto 15px;
+}
+.parrafo1{
+	text-align: justify;
+	font-size: 2.6em;
+}
+.parrafo2{
+	text-align: center;
+	font-weight: lighter;
+	font-size: 1.4em;
+}
+#searchForm{
+	border: 1px solid #333333;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: nowrap;
+	min-width: 320px;
+	max-width: 660px;
+	width: 50%;
+	padding: 5px 16px;
+	border-radius: 4px;
+	margin: 10px auto; 
+	background: #333333;
+	cursor: alias;
+} 
+#searchTerm{
+	width: calc(100% - 40px);
+	background: transparent;
+	border: 1px solid transparent;
+	color: #717373;
+	font-size: 1.4rem;
+	cursor: alias;
+}
+#searchTerm::placeholder {
+	color: #AAAAAA;
+}
+#searchTerm:focus, #searchTerm:active{
+	background: white;
+	color: black;
+	border: 1px solid orange;
+	outline: 0px;
+}
+#search{
+	width: 40px;
+	height: 40px;
+	background: transparent;
+	border: 1px solid transparent; 
+	font-size: 1.4rem;
+	cursor: alias;
+}
+.buscador-icon{
+	color: #606770;
+	cursor: alias;
+}
+.puntuacion{
+	margin-left: 10px;
+}
+.link-caja{
+	color: #658BE8;	
+}
+.font-img{
+	color: white;
+}
+button:hover {
+	background: #FBBC04;
+}
+label:hover {
+	background: #FBBC04;
+	width: 6px;
+	height: 6px;
+	border-radius: 7px;
+}
+.listas-text{
+	text-align: left;
+	font-size: 1.1em;
+	margin: 10px auto;
+	max-width: 750px;
+	font-weight: 500;
+}
+.resaltar{
+	color:#6186E5;
+}
+.tercer-sub{
+	font-weight: 700;
+	font-size: 1.5em;
+}
+.nuevofondo {
+	background: red;
+}
