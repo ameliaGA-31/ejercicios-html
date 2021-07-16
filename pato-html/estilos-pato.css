@@ -231,3 +231,25 @@ label:hover {
 .nuevofondo {
 	background: red;
 }
+.icon-up{
+	margin-right: 10px;
+}
+.icon-down{
+	margin-right: 10px;
+}
+.ocultarTexto{
+	display: none;
+}
+.mostrarTexto{
+	display: block;
+}
+.cajaPreguntas li{
+	border-top: groove;
+	margin:15px auto;
+}
+#pregunta1{
+	border-top: double;
+}
+#pregunta7{
+	border-bottom: groove;
+}
